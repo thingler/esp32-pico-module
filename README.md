@@ -20,9 +20,9 @@ Due to the size of the module, only part of the pins from the ESP32 microcontrol
 
 Thingler ESP32-PICO-D4 Module has the following pin configuration:
 
-| Name | Micro controller pin | Type | Function |
+| Name | Microcontroller pin(s) | Type | Function |
 | --- | --- | --- | --- |
-| 3V3 | 1, 3, 4, 19, 37, 43, 46 | P | Analog power supply (2.3V ~ 3.gV) |
+| 3V3 | 1, 3, 4, 19, 37, 43, 46 | P | Analog power supply (2.3V ~ 3.6V) |
 | GND | 49 | P | Analog power supply (ground) |
 | IO0 | 23 | I/O | ADC2_CH1, TOUCH1, RTC_GPIO11, CLK_OUT1, EMAC_TX_CLK |
 | EN | 9 | I | High: On; enables the module, Low: Off; resets the module |
