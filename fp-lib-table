@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name esp32-pico-d4-module)(type KiCad)(uri ${KIPRJMOD}/esp32-pico-d4-module.pretty)(options "")(descr ""))
+  (lib (name esp32-pico-module)(type KiCad)(uri ${KIPRJMOD}/esp32-pico-module.pretty)(options "")(descr ""))
 )

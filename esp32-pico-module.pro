@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=esp32-pico-d4-module.net
+LastNetListRead=esp32-pico-module.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
