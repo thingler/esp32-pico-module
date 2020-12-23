@@ -26,17 +26,6 @@ F 3 "~" H 3000 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L1
-U 1 1 5E3898E1
-P 3900 4650
-F 0 "L1" H 3953 4696 50  0000 L CNN
-F 1 "1.5n" H 3953 4605 50  0000 L CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" H 3900 4650 50  0001 C CNN
-F 3 "~" H 3900 4650 50  0001 C CNN
-	1    3900 4650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x08_Male J1
 U 1 1 5E3A35A7
 P 8850 3250
@@ -50,12 +39,12 @@ $EndComp
 $Comp
 L Device:Antenna_Chip AE1
 U 1 1 5E3A84A8
-P 3450 2950
-F 0 "AE1" H 3630 3077 50  0000 L CNN
-F 1 "Antenna_Chip" H 3630 2986 50  0000 L CNN
-F 2 "esp32-pico-module:wifi antenna" H 3350 3125 50  0001 C CNN
-F 3 "~" H 3350 3125 50  0001 C CNN
-	1    3450 2950
+P 4050 3450
+F 0 "AE1" H 4230 3577 50  0000 L CNN
+F 1 "Antenna_Chip" H 4230 3486 50  0000 L CNN
+F 2 "esp32-pico-module:wifi antenna" H 3950 3625 50  0001 C CNN
+F 3 "~" H 3950 3625 50  0001 C CNN
+	1    4050 3450
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -205,26 +194,6 @@ Wire Wire Line
 	4600 5400 5850 5400
 Wire Wire Line
 	5550 4050 4600 4050
-$Comp
-L Device:C C3
-U 1 1 5E3E04A1
-P 3900 3100
-F 0 "C3" H 4015 3146 50  0000 L CNN
-F 1 "8.2p" H 4015 3055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3938 2950 50  0001 C CNN
-F 3 "~" H 3900 3100 50  0001 C CNN
-	1    3900 3100
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3900 5400 3900 4800
-Wire Wire Line
-	3900 4500 3900 3350
-Wire Wire Line
-	3900 3350 5550 3350
-Connection ~ 3900 5400
-Wire Wire Line
-	3900 5400 4600 5400
 Wire Wire Line
 	2200 5400 2450 5400
 $Comp
@@ -244,12 +213,8 @@ Connection ~ 2450 5400
 Wire Wire Line
 	2450 5400 3000 5400
 Wire Wire Line
-	3900 2850 3550 2850
-Wire Wire Line
 	3000 3900 3000 5400
 Connection ~ 3000 5400
-Wire Wire Line
-	3000 5400 3900 5400
 Wire Wire Line
 	5550 4350 5350 4350
 Text Label 5350 4350 0    50   ~ 0
@@ -295,11 +260,6 @@ NoConn ~ 7550 4050
 NoConn ~ 7550 3850
 NoConn ~ 7550 3750
 Wire Wire Line
-	3900 2950 3900 2850
-Wire Wire Line
-	3900 3350 3900 3250
-Connection ~ 3900 3350
-Wire Wire Line
 	7150 1950 6550 1950
 Wire Wire Line
 	7150 1950 7150 2550
@@ -334,16 +294,16 @@ Wire Wire Line
 $Comp
 L esp32-pico-module:Antenna-Trace U2
 U 1 1 5E55AAC4
-P 3450 2750
-F 0 "U2" H 3537 2975 50  0000 C CNN
-F 1 "Trace" H 3537 2884 50  0000 C CNN
-F 2 "esp32-pico-module:AntennaTrace" H 3450 2750 50  0001 C CNN
-F 3 "" H 3450 2750 50  0001 C CNN
-	1    3450 2750
+P 4050 3250
+F 0 "U2" H 4137 3475 50  0000 C CNN
+F 1 "Trace" H 4137 3384 50  0000 C CNN
+F 2 "esp32-pico-module:AntennaTrace" H 4050 3250 50  0001 C CNN
+F 3 "" H 4050 3250 50  0001 C CNN
+	1    4050 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 2850 3350 2750
+	3950 3350 3950 3250
 NoConn ~ 5550 4250
 NoConn ~ 5550 4150
 Wire Wire Line
@@ -407,4 +367,8 @@ F 3 "" H 6550 3700 50  0001 C CNN
 	1    6550 3700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3000 5400 4600 5400
+Wire Wire Line
+	5550 3350 4150 3350
 $EndSCHEMATC

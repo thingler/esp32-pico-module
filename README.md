@@ -52,8 +52,6 @@ The following components has been used for the module:
 | AE1 | 1 | 2450AT14A0100T | Johanson Technology | Antennas SMALL AREA 2.4G ANT | [Mouser](https://www.mouser.fi/ProductDetail/Johanson-Technology/2450AT14A0100T?qs=sGAEpiMZZMuBTKBKvsBmlN73K%2F2BcYXlKAGDK9p9NA4JvyuVwsRwMQ%3D%3D) |
 | C1 | 1 | CGA4J1X7R0J106K125AC | TDK | 10 uF 10% 0805 6.3V | [Mouser](https://www.mouser.fi/ProductDetail/TDK/CGA4J1X7R0J106K125AC?qs=sGAEpiMZZMs0AnBnWHyRQEWjzA2rN6H9xJ%252BQ6n29nI0%3D) |
 | C2, C4 | 2 | 885012207098 | Wurth Elektronik | 100 nF 10% 0805 50V | [Mouser](https://www.mouser.fi/ProductDetail/Wurth-Elektronik/885012207098?qs=sGAEpiMZZMs0AnBnWHyRQEGbLOF2VP1iyH0H1Hok68ReUt26c8JOqw%3D%3D) |
-| C3 | 1 | 251R15S8R2CV4E | Johanson Technology | Multilayer Ceramic Capacitors MLCC - SMD/SMT 250volts 8.2pF | [Mouser](https://www.mouser.fi/ProductDetail/Johanson-Technology/251R15S8R2CV4E?qs=sGAEpiMZZMs0AnBnWHyRQMEhg08ZZBbf6%252BTDomkmMZo%3D) |
-| L1 | 1 | AIMC-0805-1N5S-T | ABRACON | Fixed Inductors 1.5nH, 600mA Tol.=+/-.3nH | [Mouser](https://www.mouser.fi/ProductDetail/ABRACON/AIMC-0805-1N5S-T?qs=sGAEpiMZZMsg%252By3WlYCkUwX6XY3JXxzLPrj0ZACc8Ao%3D) |
 | R1 | 1 | CRCW080510K0FKEAC | Vishay / Dale | Thick Film Resistors - SMD 1/8Watt 10Kohms 1% Commercial Use | [Mouser](https://www.mouser.fi/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWcT48uZO055s%3D) |
 
 ## License
